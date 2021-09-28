@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My contacts</title>
+</head>
+
+<body>
+  <h3>My Contacts</h3>
+  <ul>
+    <li>E-mail: atomas5682@gmail.com</li>
+    <li>Github: <a href="https://github.com/Thanator20"> Thanator 20 - Github account</a></li>
+  </ul>
+  <hr>
+  <form action="mailto: atomas5682@gmail.com" method="post" enctype="text/plain"> <!--The <form> HTML element represents a document section containing interactive controls for submitting information.-->
+    <!-- Form - ra példa, index.html re mutató akcióval ("action"), egyenlőre csak visszavisz rá, e nélkül viszont nem történik semmi -->
+    <!-- A "post" pedig arra utal, hogy belefoglal mindent az akcióba. -->
+    <label for="">Your name</label> <!-- cím, ami az input box előtt (vagy ahova rakod később)megjelenik -->
+    <input type="text" name="YourName" value=""> <!-- ide tud majd bárki bármit beírni -->
+    <br>
+    <label for="">Your e-mail:</label>
+    <input type="email" name="YourEmail" value=""><br> <!-- Name="" identifies the data of each of the inputs, a szövegben már benne lesz a Your e-mail: és amit ide@ír.hu -->
+    <label for="">Your message</label><br>
+    <textarea name="yourmessage" rows="10" cols="100"></textarea>
+    <br>
+    <label for="">Currently, this is just a random check-box</label>
+    <input type="checkbox" name="" value="">
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>
